@@ -2,6 +2,8 @@
 
 const n = parseInt(prompt("Inserisci il valore di N"))
 console.log(n);
+let messaggio = document.getElementById ("cubo");
+
 
 if (!isNaN(n)) {
   
@@ -11,3 +13,5 @@ if (!isNaN(n)) {
 } else {
   console.log("Inserisci un numero valido.");
 }
+
+// messaggio.innerHTML = i + "^3 = " + i ** 3;
