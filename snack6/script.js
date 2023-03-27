@@ -9,6 +9,8 @@ if (!isNaN(n)) {
   
   for (let i = 1; i <= n; i++) {
     console.log(i + "^3 = " + i ** 3);
+
+    messaggio = ` ciao`
   }
 } else {
   console.log("Inserisci un numero valido.");
